@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="commons-logging">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/lib/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/lib/eclipselink.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/lib/jrf-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/lib/log4j-1.2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/lib/oimclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/lib/spring.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/lib/wlfullclient.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/lib/wlfullclient.jar!/" />
+    </SOURCES>
+  </library>
+</component>

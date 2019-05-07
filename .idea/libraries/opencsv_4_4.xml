@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="opencsv-4.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/additional_lib/opencsv-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/additional_lib/commons-codec-1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/additional_lib/commons-lang3-3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/additional_lib/xlDDM.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../_utility/oim_libs/additional_lib/commons-codec-1.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
