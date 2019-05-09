@@ -174,7 +174,7 @@ public class DWHReconManager {
                     //roDataMap = getMappedEntry(dumpedRow);
 
                     /* MAP CSV VALUES TO CONNECTOR VALUES */
-                    dumpedRow.put("ITResource", this.itResourceKey);
+                    dumpedRow.put("itResource", this.itResourceKey);
                     dumpedRow.put("PROFILE", dumpedRow.get("ACCESS_RIGHT_NAME"));
 
                     roDataMap = getMappedEntryCodeKey(dumpedRow);
@@ -202,7 +202,7 @@ public class DWHReconManager {
                         childTableList.add(childTableValues);
                         childTableValues = new HashMap<>();
                     }
-                    childData.put("Role",childTableList);
+                    childData.put("Roles",childTableList);
 
                     if(dumpedRow.get("PROFILE") != null)
                         inputDataList.add(new InputData((HashMap) roDataMap, (HashMap) childData, toOverwrite, ea.getChangeType(), new Date()));

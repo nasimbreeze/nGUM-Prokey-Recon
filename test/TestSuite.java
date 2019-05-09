@@ -12,8 +12,8 @@ public class TestSuite {
         DWHReconManager reconManager = new DWHReconManager(
                 "20190507_accounts_DWH.csv",
                 true,
-                "ADONIS_TEST",
-                "Lookup.ADONIS.Roles",
+                "DataWarehouseFixedNetAppInst",
+                "Lookup.DWHFIXEDNET.Roles",
                 100
         );
         reconManager.runTargetRecon();
@@ -23,8 +23,8 @@ public class TestSuite {
     public void testTaskSupportAccount() throws Exception {
         HashMap<String,Object> attrs = new HashMap<>();
         attrs.put("File Path","20190507_accounts_DWH.csv");
-        attrs.put("AppInstanceName","ADONIS_TEST");
-        attrs.put("Lookup","Lookup.ADONIS.Roles");
+        attrs.put("AppInstanceName","DataWarehouseFixedNetAppInst");
+        attrs.put("Lookup","Lookup.DWHFIXEDNET.Roles");
         attrs.put("Batch Size","100");
 
         new DWHTaskSupport().execute(attrs);

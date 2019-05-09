@@ -1,2 +1,2 @@
-USER LOGIN;UserID;FName;LName;eMail;OrgaUnit;Loc;Comp;User Type;ACCESS_RIGHT_NAME
-NAZI.KIRIL;NAZIKIRIL_TST;Kiril2;Nazi;nazimail@mail.com;OU;ZV;VF;External;VF_TEST ATK SUB User,VF_TEST ATK User
+USER LOGIN;Account Name;First Name;Last Name;Mail Address;ACCESS_RIGHT_NAME
+NAZI.KIRIL;NAZIKIRIL_AN;Kiril22;Nazi;nazimail@mail.com;Controlling,Kundenmanagement
