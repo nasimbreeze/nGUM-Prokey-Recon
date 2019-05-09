@@ -7,26 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc2cd41-747d-4ce0-8194-dbf6dca30974" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DWHFixedNetImportByRecon.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190507_accounts_DWH.csv" beforeDir="false" afterPath="$PROJECT_DIR$/20190507_accounts_FKP.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/DWHFixedNetImportByRecon.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/META-INF/DWHFixedNetImportByRecon.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/DWHFixedNetImportByRecon.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/commons-codec-1.12-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/commons-codec-1.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/commons-lang3-3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/opencsv-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DWHFixedNetImportByRecon/DWHFixedNetImportByRecon.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/Exception/DWHargetReconManagerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/DWHReconManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/DWHTaskSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/FKPImportByRecon.zip" beforeDir="false" afterPath="$PROJECT_DIR$/FKPImportByRecon/FKPImportByRecon.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/lib/FKPImportByRecon.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FKPImportByRecon/lib/FKPImportByRecon.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FKPImportByRecon/FKPImportByRecon.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FKPImportByRecon/FKPImportByRecon.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/FKPReconManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/FKPReconManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/OracleDatenbankenImportByRecon/TestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/OracleDatenbankenImportByRecon/TestSuite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/properties/Vodafoneconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/properties/Vodafoneconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/DWHargetReconManagerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/FKPTargetReconManagerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHReconManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHTaskSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPTaskSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestSuite.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+            <state relative-caret-position="379">
+              <caret line="206" column="103" selection-start-line="206" selection-start-column="103" selection-end-line="206" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,19 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190507_accounts_FKP.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/properties/Vodafoneconfig.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -112,9 +91,12 @@
         <option value="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/ADONISTaskSupport.java" />
         <option value="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHReconManager.java" />
         <option value="$PROJECT_DIR$/20190507_accounts_DWH.csv" />
-        <option value="$PROJECT_DIR$/test/TestSuite.java" />
         <option value="$PROJECT_DIR$/20190507_accounts_FKP.csv" />
+        <option value="$PROJECT_DIR$/20190507_accounts_LDAPUID.csv" />
+        <option value="$PROJECT_DIR$/20190507_accounts_ADSAMACCOUNTNAME.csv" />
+        <option value="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java" />
         <option value="$PROJECT_DIR$/properties/Vodafoneconfig.properties" />
+        <option value="$PROJECT_DIR$/test/TestSuite.java" />
       </list>
     </option>
   </component>
@@ -132,6 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,8 +156,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,7 +163,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557406279602" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557412858182" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -189,6 +171,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Piera.Gueli\Desktop\ROBERTO\Projects\FKPImportByRecon" />
       <recent name="C:\Users\Piera.Gueli\Desktop\ROBERTO\Projects\AdonisClassicImportByRecon" />
       <recent name="C:\Users\Piera.Gueli\Desktop\ROBERTO\Projects\OracleDatenbankenImportByRecon" />
     </key>
@@ -205,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSuite.testAccount_Test">
+  <component name="RunManager" selected="JUnit.TestSuite">
     <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OracleDatenbankenImportByRecon" />
       <option name="PACKAGE_NAME" value="" />
@@ -220,16 +203,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestSuite" />
       <option name="METHOD_NAME" value="testAccount_Arcor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuite.testAccount_Kdg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OracleDatenbankenImportByRecon" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSuite" />
-      <option name="METHOD_NAME" value="testAccount_Kdg" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -255,13 +228,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuite.testAccount_Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OracleDatenbankenImportByRecon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSuite" />
+      <option name="METHOD_NAME" value="testAccount_Test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSuite" />
+        <item itemvalue="JUnit.TestSuite.testAccount_Test3" />
         <item itemvalue="JUnit.TestSuite.testAccount_Test" />
         <item itemvalue="JUnit.TestSuite.testAccount_Test2" />
-        <item itemvalue="JUnit.TestSuite" />
         <item itemvalue="JUnit.TestSuite.testAccount_Arcor" />
-        <item itemvalue="JUnit.TestSuite.testAccount_Kdg" />
       </list>
     </recent_temporary>
   </component>
@@ -279,18 +262,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSuite_testAccount_Test - 2019.05.08 at 15h 58m 26s.xml">
-      <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite_testAccount_Test - 2019.05.09 at 10h 57m 51s.xml">
-      <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite_testAccount_Test - 2019.05.09 at 10h 59m 25s.xml">
-      <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite_testAccount_Test - 2019.05.09 at 11h 00m 30s.xml">
-      <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSuite_testAccount_Test - 2019.05.09 at 11h 03m 53s.xml">
       <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
     </history-entry>
@@ -309,12 +280,24 @@
     <history-entry file="TestSuite_testAccount_Test - 2019.05.09 at 14h 51m 36s.xml">
       <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSuite_testAccount_Test3 - 2019.05.09 at 16h 17m 36s.xml">
+      <configuration name="TestSuite.testAccount_Test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.05.09 at 16h 26m 43s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.05.09 at 16h 38m 05s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.05.09 at 16h 40m 56s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +306,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,20 +383,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java">
+    <entry file="file://$PROJECT_DIR$/20190507_accounts_ADSAMACCOUNTNAME.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
+    <entry file="file://$PROJECT_DIR$/20190507_accounts_LDAPUID.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="206" column="103" selection-start-line="206" selection-start-column="103" selection-end-line="206" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -423,7 +410,17 @@
     <entry file="file://$PROJECT_DIR$/properties/Vodafoneconfig.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

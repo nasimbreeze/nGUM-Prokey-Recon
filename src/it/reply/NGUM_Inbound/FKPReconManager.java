@@ -204,7 +204,7 @@ public class FKPReconManager {
                     }
                     childData.put("Roles",childTableList);
 
-                    if(dumpedRow.get("PROFILE") != null)
+                    if(dumpedRow.get("PROFILE") != null && dumpedRow.get("PROFILE").trim().length() > 0)
                         inputDataList.add(new InputData((HashMap) roDataMap, (HashMap) childData, toOverwrite, ea.getChangeType(), new Date()));
                     else
                         inputDataList.add(new InputData((HashMap) roDataMap, null, toOverwrite, ea.getChangeType(), new Date()));
