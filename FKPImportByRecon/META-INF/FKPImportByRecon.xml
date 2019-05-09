@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
                <scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
                     <task>
-                         <name>DWHFixedNetImportByRecon</name>
-                         <class>it.reply.NGUM_Inbound.DWHTaskSupport</class>
-                         <description>DWHFixedNetImportByRecon</description>
+                         <name>FKPImportByRecon</name>
+                         <class>it.reply.NGUM_Inbound.FKPTaskSupport</class>
+                         <description>FKPImportByRecon</description>
                          <retry>1</retry>
 						 <parameters>
 							<string-param required="true">File Path</string-param>

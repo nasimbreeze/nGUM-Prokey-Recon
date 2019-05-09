@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FKPImportByRecon">
+    <output-path>$PROJECT_DIR$/out/artifacts/FKPImportByRecon</output-path>
+    <root id="archive" name="FKPImportByRecon.jar">
+      <element id="module-output" name="OracleDatenbankenImportByRecon" />
+    </root>
+  </artifact>
+</component>

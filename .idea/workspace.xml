@@ -2,20 +2,31 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="DWHFixedNetImportByRecon" />
+      <artifact name="FKPImportByRecon" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc2cd41-747d-4ce0-8194-dbf6dca30974" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/DWHFixedNetImportByRecon.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190507_accounts_DWH.csv" beforeDir="false" afterPath="$PROJECT_DIR$/20190507_accounts_DWH.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdonisClassicImportByRecon/AdonisClassicImportByRecon.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/Exception/ADONISTargetReconManagerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/ADONISReconManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/ADONISTaskSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190507_accounts_DWH.csv" beforeDir="false" afterPath="$PROJECT_DIR$/20190507_accounts_FKP.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/DWHFixedNetImportByRecon.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/META-INF/DWHFixedNetImportByRecon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/DWHFixedNetImportByRecon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/commons-codec-1.12-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/commons-codec-1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/lib/opencsv-4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWHFixedNetImportByRecon/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DWHFixedNetImportByRecon/DWHFixedNetImportByRecon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/Exception/DWHargetReconManagerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/DWHReconManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/DWHTaskSupport.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/OracleDatenbankenImportByRecon/TestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/OracleDatenbankenImportByRecon/TestSuite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/properties/Vodafoneconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/properties/Vodafoneconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHReconManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHReconManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception/DWHargetReconManagerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/FKPTargetReconManagerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHReconManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHTaskSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPTaskSupport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestSuite.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,23 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHTaskSupport.java">
+        <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-              <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHReconManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="204" column="40" selection-start-line="204" selection-start-column="40" selection-end-line="204" selection-end-column="40" />
+            <state relative-caret-position="158">
+              <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,19 +62,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190507_accounts_DWH.csv">
+        <entry file="file://$PROJECT_DIR$/20190507_accounts_FKP.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/properties/Vodafoneconfig.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+              <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -113,8 +111,9 @@
         <option value="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/ADONISReconManager.java" />
         <option value="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/ADONISTaskSupport.java" />
         <option value="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHReconManager.java" />
-        <option value="$PROJECT_DIR$/test/TestSuite.java" />
         <option value="$PROJECT_DIR$/20190507_accounts_DWH.csv" />
+        <option value="$PROJECT_DIR$/test/TestSuite.java" />
+        <option value="$PROJECT_DIR$/20190507_accounts_FKP.csv" />
         <option value="$PROJECT_DIR$/properties/Vodafoneconfig.properties" />
       </list>
     </option>
@@ -133,64 +132,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reply" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reply" type="462c0819:PsiDirectoryNode" />
               <item name="NGUM_Inbound" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DWHFixedNetImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DWHFixedNetImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -198,6 +173,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,7 +181,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557394560958" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557406279602" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -259,16 +235,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.testAccount_Prod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OracleDatenbankenImportByRecon" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSuite" />
-      <option name="METHOD_NAME" value="testAccount_Prod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSuite.testAccount_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OracleDatenbankenImportByRecon" />
       <option name="PACKAGE_NAME" value="" />
@@ -279,13 +245,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuite.testAccount_Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OracleDatenbankenImportByRecon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSuite" />
+      <option name="METHOD_NAME" value="testAccount_Test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestSuite.testAccount_Test" />
+        <item itemvalue="JUnit.TestSuite.testAccount_Test2" />
         <item itemvalue="JUnit.TestSuite" />
         <item itemvalue="JUnit.TestSuite.testAccount_Arcor" />
         <item itemvalue="JUnit.TestSuite.testAccount_Kdg" />
-        <item itemvalue="JUnit.TestSuite.testAccount_Prod" />
       </list>
     </recent_temporary>
   </component>
@@ -303,15 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSuite_testAccount_Arcor - 2019.05.08 at 14h 20m 28s.xml">
-      <configuration name="TestSuite.testAccount_Arcor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite_testAccount_Test - 2019.05.08 at 15h 49m 27s.xml">
-      <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSuite - 2019.05.08 at 15h 50m 42s.xml">
-      <configuration name="TestSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSuite_testAccount_Test - 2019.05.08 at 15h 58m 26s.xml">
       <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
     </history-entry>
@@ -333,12 +300,21 @@
     <history-entry file="TestSuite_testAccount_Test - 2019.05.09 at 11h 35m 58s.xml">
       <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSuite_testAccount_Test - 2019.05.09 at 14h 25m 03s.xml">
+      <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite_testAccount_Test2 - 2019.05.09 at 14h 25m 20s.xml">
+      <configuration name="TestSuite.testAccount_Test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite_testAccount_Test - 2019.05.09 at 14h 51m 36s.xml">
+      <configuration name="TestSuite.testAccount_Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,7 +323,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,7 +366,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exception/DWHargetReconManagerException.java">
+    <entry file="file://$PROJECT_DIR$/src/Exception/FKPTargetReconManagerException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -407,69 +383,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190507_accounts_ADONIS_PROD.csv">
+    <entry file="file://$PROJECT_DIR$/20190507_accounts_ADONIS_PROD.csv" />
+    <entry file="file://$PROJECT_DIR$/20190507_accounts_ADONIS_ARCOR.csv" />
+    <entry file="file://$PROJECT_DIR$/20190507_accounts_ADONIS_KDG.csv" />
+    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPTaskSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190507_accounts_ADONIS_ARCOR.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="121" selection-start-line="1" selection-start-column="121" selection-end-line="1" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190507_accounts_ADONIS_KDG.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="120" selection-start-line="1" selection-start-column="120" selection-end-line="1" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHTaskSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="306">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/DWHReconManager.java">
+    <entry file="file://$PROJECT_DIR$/20190507_accounts_FKP.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="204" column="40" selection-start-line="204" selection-start-column="40" selection-end-line="204" selection-end-column="40" />
+        <state relative-caret-position="17">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190507_accounts_DWH.csv">
+    <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/properties/Vodafoneconfig.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -479,7 +433,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>DWHFixedNetImportByRecon</last-edited>
+          <last-edited>FKPImportByRecon</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

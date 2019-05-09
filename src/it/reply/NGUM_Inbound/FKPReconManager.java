@@ -20,7 +20,7 @@ import java.util.*;
 import static java.lang.Thread.sleep;
 
 
-public class DWHReconManager {
+public class FKPReconManager {
 
     //private TPS2ClientDataFacade dataFacade;
     private boolean isLocal;
@@ -39,7 +39,7 @@ public class DWHReconManager {
     private static Logger logger = Logger.getLogger(CustomConstants.CONNECTOR_TARGET_RECON_LOGGER);
 
 
-    public DWHReconManager() {
+    public FKPReconManager() {
         super();
     }
 
@@ -47,10 +47,10 @@ public class DWHReconManager {
         this.withChild = withChild;
     }
 
-    public DWHReconManager(String sourceFilePath, boolean isLocal, String appInstanceName, String reconAttrMapLookupName,
-                           int batchSize/*, boolean withChild*/) throws DWHargetReconManagerException {
+    public FKPReconManager(String sourceFilePath, boolean isLocal, String appInstanceName, String reconAttrMapLookupName,
+                           int batchSize/*, boolean withChild*/) throws FKPTargetReconManagerException {
 
-        String methodName = "DWHReconManager()::";
+        String methodName = "FKPReconManager()::";
         logger.debug(methodName + sourceFilePath + ";" + isLocal + ";" + reconAttrMapLookupName + ";" + batchSize);
         this.isLocal = isLocal;
 		this.sourceFilePath = sourceFilePath;
@@ -90,13 +90,13 @@ public class DWHReconManager {
             reader.close();
 
         } catch (InterfaceManagerException e) {
-            throw new DWHargetReconManagerException(e);
+            throw new FKPTargetReconManagerException(e);
         } catch (FileNotFoundException e) {
-            throw new DWHargetReconManagerException(e);
+            throw new FKPTargetReconManagerException(e);
         } catch (IOException e) {
-            throw new DWHargetReconManagerException(e);
+            throw new FKPTargetReconManagerException(e);
         } catch (OIMUserUtilsException e) {
-            throw new DWHargetReconManagerException(e);
+            throw new FKPTargetReconManagerException(e);
         }
     }
 
@@ -123,7 +123,7 @@ public class DWHReconManager {
         return evtAttrs;
     }
 
-    public void runTargetRecon() throws DWHargetReconManagerException {
+    public void runTargetRecon() throws FKPTargetReconManagerException {
         /*
          * 1-mi leggo il file con OpenCSV
          * 2-per ogni record:
@@ -136,7 +136,7 @@ public class DWHReconManager {
         try {
             reconOp = InterfaceManager.getInstance(isLocal).getReconOpsIntf();
         } catch (InterfaceManagerException e) {
-            throw new DWHargetReconManagerException();
+            throw new FKPTargetReconManagerException();
         }
 
         Map<String, Object> roDataMap;
@@ -264,7 +264,7 @@ public class DWHReconManager {
         return ldapuid;
     }
 
-    private Map<String, Object> getMappedEntry(Map<String, String> record) throws DWHargetReconManagerException {
+    private Map<String, Object> getMappedEntry(Map<String, String> record) throws FKPTargetReconManagerException {
         Map<String, Object> mappedEntry = new HashMap<String, Object>();
 
         for (Map.Entry<String, String> recordAttribute : record.entrySet()) {
@@ -278,7 +278,7 @@ public class DWHReconManager {
         return mappedEntry;
     }
 
-    private Map<String, Object> getMappedEntryCodeKey(Map<String, String> record) throws DWHargetReconManagerException {
+    private Map<String, Object> getMappedEntryCodeKey(Map<String, String> record) throws FKPTargetReconManagerException {
         Map<String, Object> mappedEntry = new HashMap<String, Object>();
 
         for (Map.Entry<String, String> recordAttribute : record.entrySet()) {
@@ -301,7 +301,7 @@ public class DWHReconManager {
     }*/
 
 
-    private List<Map<String, String>> parseFile(int line, int batchSize) throws DWHargetReconManagerException {
+    private List<Map<String, String>> parseFile(int line, int batchSize) throws FKPTargetReconManagerException {
         List<Map<String, String>> result = new ArrayList<Map<String, String>>();
         CSVReader reader;
         try {
@@ -324,9 +324,9 @@ public class DWHReconManager {
                 currentLine++;
             }
         } catch (FileNotFoundException e) {
-            throw new DWHargetReconManagerException(e);
+            throw new FKPTargetReconManagerException(e);
         } catch (IOException e) {
-            throw new DWHargetReconManagerException(e);
+            throw new FKPTargetReconManagerException(e);
         }
         return result;
     }

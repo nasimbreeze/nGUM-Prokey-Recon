@@ -4,9 +4,9 @@ import oracle.iam.scheduler.vo.TaskSupport;
 
 import java.util.HashMap;
 
-public class DWHTaskSupport extends TaskSupport {
+public class FKPTaskSupport extends TaskSupport {
 
-    public DWHTaskSupport() {
+    public FKPTaskSupport() {
         super();
     }
 
@@ -22,7 +22,7 @@ public class DWHTaskSupport extends TaskSupport {
         boolean isLocal = false;
         //boolean isLocal = true;
 
-        new DWHReconManager(
+        new FKPReconManager(
                 sourceFilePath, isLocal, appInstanceName, lookup, batchSize//, withChild
         ).runTargetRecon();
     }
