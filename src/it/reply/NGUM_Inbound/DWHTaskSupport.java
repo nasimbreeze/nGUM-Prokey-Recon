@@ -4,9 +4,9 @@ import oracle.iam.scheduler.vo.TaskSupport;
 
 import java.util.HashMap;
 
-public class ADONISTaskSupport extends TaskSupport {
+public class DWHTaskSupport extends TaskSupport {
 
-    public ADONISTaskSupport() {
+    public DWHTaskSupport() {
         super();
     }
 
@@ -22,7 +22,7 @@ public class ADONISTaskSupport extends TaskSupport {
         boolean isLocal = false;
         //boolean isLocal = true;
 
-        new ADONISReconManager(
+        new DWHReconManager(
                 sourceFilePath, isLocal, appInstanceName, lookup, batchSize//, withChild
         ).runTargetRecon();
     }

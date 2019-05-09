@@ -20,7 +20,7 @@ import java.util.*;
 import static java.lang.Thread.sleep;
 
 
-public class ADONISReconManager {
+public class DWHReconManager {
 
     //private TPS2ClientDataFacade dataFacade;
     private boolean isLocal;
@@ -39,7 +39,7 @@ public class ADONISReconManager {
     private static Logger logger = Logger.getLogger(CustomConstants.CONNECTOR_TARGET_RECON_LOGGER);
 
 
-    public ADONISReconManager() {
+    public DWHReconManager() {
         super();
     }
 
@@ -47,10 +47,10 @@ public class ADONISReconManager {
         this.withChild = withChild;
     }
 
-    public ADONISReconManager(String sourceFilePath, boolean isLocal, String appInstanceName, String reconAttrMapLookupName,
-                              int batchSize/*, boolean withChild*/) throws ADONISTargetReconManagerException {
+    public DWHReconManager(String sourceFilePath, boolean isLocal, String appInstanceName, String reconAttrMapLookupName,
+                           int batchSize/*, boolean withChild*/) throws DWHargetReconManagerException {
 
-        String methodName = "ADONISReconManager()::";
+        String methodName = "DWHReconManager()::";
         logger.debug(methodName + sourceFilePath + ";" + isLocal + ";" + reconAttrMapLookupName + ";" + batchSize);
         this.isLocal = isLocal;
 		this.sourceFilePath = sourceFilePath;
@@ -90,13 +90,13 @@ public class ADONISReconManager {
             reader.close();
 
         } catch (InterfaceManagerException e) {
-            throw new ADONISTargetReconManagerException(e);
+            throw new DWHargetReconManagerException(e);
         } catch (FileNotFoundException e) {
-            throw new ADONISTargetReconManagerException(e);
+            throw new DWHargetReconManagerException(e);
         } catch (IOException e) {
-            throw new ADONISTargetReconManagerException(e);
+            throw new DWHargetReconManagerException(e);
         } catch (OIMUserUtilsException e) {
-            throw new ADONISTargetReconManagerException(e);
+            throw new DWHargetReconManagerException(e);
         }
     }
 
@@ -123,7 +123,7 @@ public class ADONISReconManager {
         return evtAttrs;
     }
 
-    public void runTargetRecon() throws ADONISTargetReconManagerException {
+    public void runTargetRecon() throws DWHargetReconManagerException {
         /*
          * 1-mi leggo il file con OpenCSV
          * 2-per ogni record:
@@ -136,7 +136,7 @@ public class ADONISReconManager {
         try {
             reconOp = InterfaceManager.getInstance(isLocal).getReconOpsIntf();
         } catch (InterfaceManagerException e) {
-            throw new ADONISTargetReconManagerException();
+            throw new DWHargetReconManagerException();
         }
 
         Map<String, Object> roDataMap;
@@ -264,7 +264,7 @@ public class ADONISReconManager {
         return ldapuid;
     }
 
-    private Map<String, Object> getMappedEntry(Map<String, String> record) throws ADONISTargetReconManagerException {
+    private Map<String, Object> getMappedEntry(Map<String, String> record) throws DWHargetReconManagerException {
         Map<String, Object> mappedEntry = new HashMap<String, Object>();
 
         for (Map.Entry<String, String> recordAttribute : record.entrySet()) {
@@ -278,7 +278,7 @@ public class ADONISReconManager {
         return mappedEntry;
     }
 
-    private Map<String, Object> getMappedEntryCodeKey(Map<String, String> record) throws ADONISTargetReconManagerException {
+    private Map<String, Object> getMappedEntryCodeKey(Map<String, String> record) throws DWHargetReconManagerException {
         Map<String, Object> mappedEntry = new HashMap<String, Object>();
 
         for (Map.Entry<String, String> recordAttribute : record.entrySet()) {
@@ -301,7 +301,7 @@ public class ADONISReconManager {
     }*/
 
 
-    private List<Map<String, String>> parseFile(int line, int batchSize) throws ADONISTargetReconManagerException {
+    private List<Map<String, String>> parseFile(int line, int batchSize) throws DWHargetReconManagerException {
         List<Map<String, String>> result = new ArrayList<Map<String, String>>();
         CSVReader reader;
         try {
@@ -324,9 +324,9 @@ public class ADONISReconManager {
                 currentLine++;
             }
         } catch (FileNotFoundException e) {
-            throw new ADONISTargetReconManagerException(e);
+            throw new DWHargetReconManagerException(e);
         } catch (IOException e) {
-            throw new ADONISTargetReconManagerException(e);
+            throw new DWHargetReconManagerException(e);
         }
         return result;
     }

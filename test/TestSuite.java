@@ -1,5 +1,5 @@
-import it.reply.NGUM_Inbound.ADONISReconManager;
-import it.reply.NGUM_Inbound.ADONISTaskSupport;
+import it.reply.NGUM_Inbound.DWHReconManager;
+import it.reply.NGUM_Inbound.DWHTaskSupport;
 import org.junit.Test;
 import Exception.*;
 
@@ -8,9 +8,9 @@ import java.util.HashMap;
 public class TestSuite {
 
     @Test
-    public void testAccount_Test() throws ADONISTargetReconManagerException {
-        ADONISReconManager reconManager = new ADONISReconManager(
-                "20190507_accounts_ADONIS_TEST.csv",
+    public void testAccount_Test() throws DWHargetReconManagerException {
+        DWHReconManager reconManager = new DWHReconManager(
+                "20190507_accounts_DWH.csv",
                 true,
                 "ADONIS_TEST",
                 "Lookup.ADONIS.Roles",
@@ -20,50 +20,14 @@ public class TestSuite {
     }
 
     @Test
-    public void testAccount_Prod() throws ADONISTargetReconManagerException {
-        ADONISReconManager reconManager = new ADONISReconManager(
-                "20190507_accounts_ADONIS_PROD.csv",
-                true,
-                "ADONISPROD",
-                "Lookup.ADONIS.Roles",
-                100
-        );
-        reconManager.runTargetRecon();
-    }
-
-    @Test
-    public void testAccount_Kdg() throws ADONISTargetReconManagerException {
-        ADONISReconManager reconManager = new ADONISReconManager(
-                "20190507_accounts_ADONIS_KDG.csv",
-                true,
-                "ADONIS_KDG",
-                "Lookup.ADONIS.Roles",
-                100
-        );
-        reconManager.runTargetRecon();
-    }
-
-    @Test
-    public void testAccount_Arcor() throws ADONISTargetReconManagerException {
-        ADONISReconManager reconManager = new ADONISReconManager(
-                "20190507_accounts_ADONIS_ARCOR.csv",
-                true,
-                "ADONIS_ARCOR",
-                "Lookup.ADONIS.Roles",
-                100
-        );
-        reconManager.runTargetRecon();
-    }
-
-    @Test
     public void testTaskSupportAccount() throws Exception {
         HashMap<String,Object> attrs = new HashMap<>();
-        attrs.put("File Path","20190507_accounts_ADONIS_TEST.csv");
+        attrs.put("File Path","20190507_accounts_DWH.csv");
         attrs.put("AppInstanceName","ADONIS_TEST");
         attrs.put("Lookup","Lookup.ADONIS.Roles");
         attrs.put("Batch Size","100");
 
-        new ADONISTaskSupport().execute(attrs);
+        new DWHTaskSupport().execute(attrs);
     }
 
 }

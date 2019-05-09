@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
                <scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
                     <task>
-                         <name>AdonisClassicImportByRecon</name>
-                         <class>it.reply.NGUM_Inbound.ADONISTaskSupport</class>
-                         <description>AdonisClassicImportByRecon</description>
+                         <name>DWHFixedNetImportByRecon</name>
+                         <class>it.reply.NGUM_Inbound.DWHTaskSupport</class>
+                         <description>DWHFixedNetImportByRecon</description>
                          <retry>1</retry>
 						 <parameters>
 							<string-param required="true">File Path</string-param>
