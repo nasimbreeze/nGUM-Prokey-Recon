@@ -174,9 +174,7 @@ public class ADONISReconManager {
                     //roDataMap = getMappedEntry(dumpedRow);
 
                     /* MAP CSV VALUES TO CONNECTOR VALUES */
-                    dumpedRow.put("LDAP_UID", removeAccountSuffix(dumpedRow.get("Username")));
-                    dumpedRow.put("ItResource", this.itResourceKey);
-                    dumpedRow.put("It Resource", this.itResourceKey);
+                    dumpedRow.put("ITResource", this.itResourceKey);
                     dumpedRow.put("PROFILE", dumpedRow.get("ACCESS_RIGHT_NAME"));
 
                     roDataMap = getMappedEntryCodeKey(dumpedRow);
@@ -184,11 +182,8 @@ public class ADONISReconManager {
                     logger.info("\n\t "+ roDataMap + "\n");
 
                     logMap("roDataMap", roDataMap);
-                    roDataMap.put("ITResource", this.itResourceName);
-                    roDataMap.put("It Resource", this.itResourceName);
                     String objectStatus = CustomConstants.STATUS_ENABLED; //evaluateObjectStatus(roDataMap);
                     logger.debug(methodName + "objectStatus=" + objectStatus);
-                    //roDataMap.put("TPS2ObjectStatus", objectStatus);
 
                     boolean toOverwrite = true;
                     /*if(alreadyVisitedAccountPerRoles.contains(dumpedRow.get("Account Name")+"->"+dumpedRow.get("Last Name")))
@@ -203,12 +198,11 @@ public class ADONISReconManager {
 
                     String[] roles = dumpedRow.get("PROFILE").split(",");
                     for(String r : roles) {
-                        childTableValues.put("Role", itResourceKey + "~" + r );
+                        childTableValues.put("Role", itResourceKey + "~" + r.trim() );
                         childTableList.add(childTableValues);
                         childTableValues = new HashMap<>();
                     }
                     childData.put("Role",childTableList);
-                    //System.out.println(childData.toString());
 
                     if(dumpedRow.get("PROFILE") != null)
                         inputDataList.add(new InputData((HashMap) roDataMap, (HashMap) childData, toOverwrite, ea.getChangeType(), new Date()));
@@ -337,7 +331,7 @@ public class ADONISReconManager {
         return result;
     }
 
-    public void logMap(String mapName, Map inputMap) {
+    private void logMap(String mapName, Map inputMap) {
         logger.debug("printing map content:" + mapName);
         if (inputMap == null)
             logger.debug("map is NULL!:" + mapName);
@@ -351,14 +345,6 @@ public class ADONISReconManager {
             }
         }
     }
-
-    private String getProfile(String instanz, String rolle, String zugri) {
-        if(rolle.length() > 0 && zugri.length() > 0 && instanz.length() > 0)
-            return rolle.trim() + "-" + zugri.toUpperCase().charAt(0);
-        else
-            return null;
-    }
-
 
 }
 

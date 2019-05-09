@@ -1,0 +1,2 @@
+USER LOGIN;UserID;FName;LName;eMail;OrgaUnit;Loc;Comp;User Type;ACCESS_RIGHT_NAME
+NAZI.KIRIL;NAZIKIRIL;Kiril2;Nazi;nazimail@mail.com;OU;ZV;VF;External;VF_PROD ATK SUB User,VF_PROD ATK User

@@ -19,8 +19,8 @@ public class ADONISTaskSupport extends TaskSupport {
         //boolean withChild = Boolean.parseBoolean((String) input.get("For Child Table"));
 
         // To deploy
-        //boolean isLocal = false;
-        boolean isLocal = true;
+        boolean isLocal = false;
+        //boolean isLocal = true;
 
         new ADONISReconManager(
                 sourceFilePath, isLocal, appInstanceName, lookup, batchSize//, withChild
