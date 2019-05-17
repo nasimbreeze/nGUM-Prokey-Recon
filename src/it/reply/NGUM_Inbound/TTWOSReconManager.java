@@ -20,7 +20,7 @@ import java.util.*;
 import static java.lang.Thread.sleep;
 
 
-public class FKPReconManager {
+public class TTWOSReconManager {
 
     //private TPS2ClientDataFacade dataFacade;
     private boolean isLocal;
@@ -39,7 +39,7 @@ public class FKPReconManager {
     private static Logger logger = Logger.getLogger(CustomConstants.CONNECTOR_TARGET_RECON_LOGGER);
 
 
-    public FKPReconManager() {
+    public TTWOSReconManager() {
         super();
     }
 
@@ -47,10 +47,10 @@ public class FKPReconManager {
         this.withChild = withChild;
     }
 
-    public FKPReconManager(String sourceFilePath, boolean isLocal, String appInstanceName, String reconAttrMapLookupName,
-                           int batchSize/*, boolean withChild*/) throws FKPTargetReconManagerException {
+    public TTWOSReconManager(String sourceFilePath, boolean isLocal, String appInstanceName, String reconAttrMapLookupName,
+                             int batchSize/*, boolean withChild*/) throws FKPTargetReconManagerException {
 
-        String methodName = "FKPReconManager()::";
+        String methodName = "TTWOSReconManager()::";
         logger.debug(methodName + sourceFilePath + ";" + isLocal + ";" + reconAttrMapLookupName + ";" + batchSize);
         this.isLocal = isLocal;
 		this.sourceFilePath = sourceFilePath;

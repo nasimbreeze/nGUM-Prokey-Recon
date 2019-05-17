@@ -7,14 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc2cd41-747d-4ce0-8194-dbf6dca30974" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/FKPImportByRecon.zip" beforeDir="false" afterPath="$PROJECT_DIR$/FKPImportByRecon/FKPImportByRecon.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/lib/FKPImportByRecon.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FKPImportByRecon/lib/FKPImportByRecon.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FKPImportByRecon/FKPImportByRecon.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FKPImportByRecon/FKPImportByRecon.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/FKPReconManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/FKPReconManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OracleDatenbankenImportByRecon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OracleDatenbankenImportByRecon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/FKPImportByRecon.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/META-INF/FKPImportByRecon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/lib/FKPImportByRecon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/lib/commons-codec-1.12-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/lib/commons-codec-1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/lib/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/lib/opencsv-4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FKPImportByRecon/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/FKPReconManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OracleDatenbankenImportByRecon/it/reply/NGUM_Inbound/FKPTaskSupport.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/OracleDatenbankenImportByRecon/TestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/OracleDatenbankenImportByRecon/TestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/properties/Vodafoneconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/properties/Vodafoneconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/TTWOSReconManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPTaskSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/reply/NGUM_Inbound/TTWOSTaskSupport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestSuite.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,32 +34,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="206" column="103" selection-start-line="206" selection-start-column="103" selection-end-line="206" selection-end-column="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/properties/Vodafoneconfig.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -115,47 +100,59 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="TTWOSGenericImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="TTWOSGenericImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTWOSGenericImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTWOSGenericImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TTWOSGenericImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="TTWOSGenericImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reply" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="TTWOSGenericImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reply" type="462c0819:PsiDirectoryNode" />
               <item name="NGUM_Inbound" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FKPImportByRecon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FKPImportByRecon" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="TTWOSGenericImportByRecon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
+              <item name="TTWOSGenericImportByRecon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,9 +292,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,7 +311,7 @@
       <window_info anchor="bottom" id="IvyIDEA" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,7 +365,7 @@
     <entry file="file://$PROJECT_DIR$/20190507_accounts_ADONIS_PROD.csv" />
     <entry file="file://$PROJECT_DIR$/20190507_accounts_ADONIS_ARCOR.csv" />
     <entry file="file://$PROJECT_DIR$/20190507_accounts_ADONIS_KDG.csv" />
-    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPTaskSupport.java">
+    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/TTWOSTaskSupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
@@ -397,16 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/FKPReconManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="206" column="103" selection-start-line="206" selection-start-column="103" selection-end-line="206" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/properties/Vodafoneconfig.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -414,10 +400,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/reply/NGUM_Inbound/TTWOSReconManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="206" column="103" selection-start-line="206" selection-start-column="103" selection-end-line="206" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/TestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

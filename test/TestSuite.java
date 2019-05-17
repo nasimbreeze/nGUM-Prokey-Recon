@@ -1,15 +1,12 @@
-import it.reply.NGUM_Inbound.FKPReconManager;
-import it.reply.NGUM_Inbound.FKPTaskSupport;
-import org.junit.Test;
+import it.reply.NGUM_Inbound.TTWOSReconManager;
 import Exception.*;
-
-import java.util.HashMap;
+import org.junit.Test;
 
 public class TestSuite {
 
     @Test
     public void testAccount_Test() throws FKPTargetReconManagerException {
-        FKPReconManager reconManager = new FKPReconManager(
+        TTWOSReconManager reconManager = new TTWOSReconManager(
                 "20190507_accounts_FKP.csv",
                 true,
                 "FKPBestellcenterAppInst",
@@ -21,7 +18,7 @@ public class TestSuite {
 
     @Test
     public void testAccount_Test2() throws FKPTargetReconManagerException {
-        FKPReconManager reconManager = new FKPReconManager(
+        TTWOSReconManager reconManager = new TTWOSReconManager(
                 "20190507_accounts_FKP.csv",
                 true,
                 "FKPRechnungsanalyseAppInst",
@@ -33,7 +30,7 @@ public class TestSuite {
 
     @Test
     public void testAccount_Test3() throws FKPTargetReconManagerException {
-        FKPReconManager reconManager = new FKPReconManager(
+        TTWOSReconManager reconManager = new TTWOSReconManager(
                 "20190507_accounts_LDAPUID.csv",
                 true,
                 //"TTWOSapp3ldapuid",
@@ -46,7 +43,7 @@ public class TestSuite {
 
     @Test
     public void testAccount_Test4() throws FKPTargetReconManagerException {
-        FKPReconManager reconManager = new FKPReconManager(
+        TTWOSReconManager reconManager = new TTWOSReconManager(
                 "20190507_accounts_ADSAMACCOUNTNAME.csv",
                 true,
                 //"TTWOSapp2adsamaccount",
@@ -66,7 +63,7 @@ public class TestSuite {
         attrs.put("Lookup","Lookup.TTWOS.EMAIL.Roles");
         attrs.put("Batch Size","100");
 
-        new FKPTaskSupport().execute(attrs);
+        new TTWOSTaskSupport().execute(attrs);
     }
 */
 }
