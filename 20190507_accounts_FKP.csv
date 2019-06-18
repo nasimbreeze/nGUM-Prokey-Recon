@@ -1,2 +1,3 @@
-USER LOGIN;Account Name;First Name;Last Name;ACCESS_RIGHT_NAME
-NAZI.KIRIL;nazimail@mail.com;Kiril;Nazi;Vodafone Content Manager,Vodafone Account Manager (Read Only)
+User Login;First Name;Last Name;Organization;Status;User Type;Employee Type;NsuniqueID;Email
+NAZI.KIRIL13;nazi;kiril;Xellerate Users;Active;End-User;Full-Time;yjjte;nazi@mail.it
+NAZI.KIRIL14;nazi;kiril;Xellerate Users;Active;End-User;Full-Time;34827e92;nazi@mail.it

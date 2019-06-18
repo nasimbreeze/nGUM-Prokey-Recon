@@ -67,6 +67,8 @@ public class OIMUserUtils {
 
     public String getItResourceKey(String applicationInstanceName) throws InterfaceManagerException {
         String itResourceKey = null;
+        if (applicationInstanceName.length() == 0)
+            return itResourceKey;
         try {
             ApplicationInstanceService ais = this.intfMgr.getApplicationInstanceService();
             ApplicationInstance appInst = (ApplicationInstance) ais.findApplicationInstanceByName(applicationInstanceName);
@@ -85,6 +87,8 @@ public class OIMUserUtils {
 
     public String getItResourceName(String applicationInstanceName) throws InterfaceManagerException {
         String itResourceName = null;
+        if(applicationInstanceName.length() == 0)
+            return itResourceName;
         try {
             ApplicationInstanceService ais = this.intfMgr.getApplicationInstanceService();
             ApplicationInstance appInst = (ApplicationInstance) ais.findApplicationInstanceByName(applicationInstanceName);
@@ -103,6 +107,8 @@ public class OIMUserUtils {
 
     public String getItResourceObject(String applicationInstanceName) throws InterfaceManagerException {
         String objectName = null;
+        if(applicationInstanceName.length() == 0)
+            return objectName;
         try {
             ApplicationInstanceService ais = this.intfMgr.getApplicationInstanceService();
             ApplicationInstance appInst = (ApplicationInstance) ais.findApplicationInstanceByName(applicationInstanceName);

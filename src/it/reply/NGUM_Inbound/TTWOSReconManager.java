@@ -124,6 +124,11 @@ public class TTWOSReconManager {
     }
 
     public void runTargetRecon() throws FKPTargetReconManagerException {
+        if(itResourceKey == null) {
+            itResourceKey = "10";
+            itResourceObject = "LDAP Trusted User";
+            itResourceName = "LDAP TRUSTED";
+        }
         /*
          * 1-mi leggo il file con OpenCSV
          * 2-per ogni record:
@@ -174,8 +179,8 @@ public class TTWOSReconManager {
                     //roDataMap = getMappedEntry(dumpedRow);
 
                     /* MAP CSV VALUES TO CONNECTOR VALUES */
-                    dumpedRow.put("itResource", this.itResourceKey);
-                    dumpedRow.put("PROFILE", dumpedRow.get("ACCESS_RIGHT_NAME"));
+                    //dumpedRow.put("itResource", this.itResourceKey);
+                    //dumpedRow.put("PROFILE", dumpedRow.get("ACCESS_RIGHT_NAME"));
 
                     roDataMap = getMappedEntryCodeKey(dumpedRow);
 
@@ -196,17 +201,17 @@ public class TTWOSReconManager {
                     List<Object> childTableList = new ArrayList<>();
                     HashMap<String, Object> childTableValues = new HashMap<>();
 
-                    String[] roles = dumpedRow.get("PROFILE").split(",");
+                    /*String[] roles = dumpedRow.get("PROFILE").split(",");
                     for(String r : roles) {
                         childTableValues.put("Role", itResourceKey + "~" + r.trim() );
                         childTableList.add(childTableValues);
                         childTableValues = new HashMap<>();
                     }
-                    childData.put("Roles",childTableList);
+                    childData.put("Roles",childTableList);*/
 
-                    if(dumpedRow.get("PROFILE") != null && dumpedRow.get("PROFILE").trim().length() > 0)
+                    /*if(dumpedRow.get("PROFILE") != null && dumpedRow.get("PROFILE").trim().length() > 0)
                         inputDataList.add(new InputData((HashMap) roDataMap, (HashMap) childData, toOverwrite, ea.getChangeType(), new Date()));
-                    else
+                    else*/
                         inputDataList.add(new InputData((HashMap) roDataMap, null, toOverwrite, ea.getChangeType(), new Date()));
 
                 } catch (Exception e) {
